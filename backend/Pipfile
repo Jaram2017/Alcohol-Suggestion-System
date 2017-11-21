@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+pymysql = "*"
+sqlalchemy = "*"
+flask-login = "*"
+flask-api = "*"
+pyopenssl = "*"
+requests = "*"
+bcrypt = "*"
+
+
+[dev-packages]
+
