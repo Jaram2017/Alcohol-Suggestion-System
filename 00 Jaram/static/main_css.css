@@ -1,8 +1,19 @@
+#logo {
+	margin-top: 20px;
+	vertical-align: top;
+	padding-left: 37%;
+	font: 2em bold black;
+}
+
 #user {
 	border: 3px solid #cccccc;
-	margin-bottom: 20pt;
 	float: right;
 }
+
+#search {
+	margin: 20px 0 30px 0;
+}
+
 #searchBar {
 	position: relative;
 	left: 35%;
@@ -11,10 +22,31 @@
 	font-size: 30pt;
 }
 
+#recommendation, #itemList {
+	padding: 10px;
+}
+
 #recommendation {
-	height: 100px;
+	height: 300px;
+	margin-bottom: 10px;
 }
 
 #itemList {
-	height: 400px;
+	height: 800px;
+}
+
+.recommItem, .defaultItem, #user {
+	padding: 5px;
+}
+
+.recommItem {
+	border: 2px solid black;
+	width: 150px;
+	height: 200px;
+}
+
+.defaultItem {
+	border: 2px solid black;
+	width: 200px;
+	height: 250px;
 }

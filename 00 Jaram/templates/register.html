@@ -5,11 +5,12 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename = 'register_css.css') }}" />
 </head>
 <body>
-	<form>
+	<div id="logo">ALCOHOL SUGGESTION SYSTEM</div>
+	<form id="registerView">
 		<div id="info">
-			ID: <input type="text" name="id" /><br>
-			PW: <input type="password" name="pw" /><br>
-			Email: <input type="text" name="email" />
+			ID: <input id="id" type="text" name="id" /><br>
+			PW: <input id="pw" type="password" name="pw" /><br>
+			Email: <input id="email" type="text" name="email" />
 		</div>
 		<div id="btn">
 			<input type="submit" value="REGISTER" />

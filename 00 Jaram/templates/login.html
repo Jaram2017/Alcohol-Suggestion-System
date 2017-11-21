@@ -5,10 +5,11 @@
 	<link rel="stylesheet" href="{{ url_for('static', filename = 'login_css.css') }}" />
 </head>
 <body>
-	<form>
+	<div id="logo">ALCOHOL SUGGESTION SYSTEM</div>
+	<form id="loginView">
 		<div id="info">
-			ID <input type="text" name="id" />
-			PW <input type="password" name="pw" />
+			ID <input id="id" type="text" name="id" /><br>
+			PW <input id="pw" type="password" name="pw" />
 		</div>
 		<div id="btn">
 			<input type="submit" value="LOGIN" />

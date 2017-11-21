@@ -5,7 +5,7 @@
 	font: 2em bold black;
 }
 
-#loginView {
+#registerView {
 	margin-top: 10%;
 	margin-left: 40%;
 }
@@ -15,5 +15,9 @@
 }
 
 #pw {
+	margin-bottom: 10px;
+}
+
+#email {
 	margin-bottom: 30px;
 }

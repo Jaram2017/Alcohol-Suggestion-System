@@ -6,14 +6,15 @@
 		<link rel="stylesheet" href="{{ url_for('static', filename = 'main_css.css') }}" />
 	</head>
 	<body>
+		<div id="logo">ALCOHOL SUGGESTION SYSTEM</div>
 		<div id="user">
 			<a href="login">login</a> / <a href="register">register</a></div>
 		<div id="search"><input type="text" id="searchBar" placeholder="Search your drink..." /></div>
 		<fieldset id="recommendation">
-			your own recommendation here...
+			<div class="recommItem">display recommendation item</div>
 		</fieldset>
 		<fieldset id="itemList">
-			liquior list here...
+			<div class="defaultItem">display default item</div>
 		</fieldset>
 	</body>
 </html>
